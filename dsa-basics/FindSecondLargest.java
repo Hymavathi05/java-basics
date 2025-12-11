@@ -9,7 +9,7 @@ public class FindSecondLargest
     	  for(int i=1;i<arr.length;i++)
     		  if(arr[i]>largest)
     			  largest=arr[i];
-    	  int second=-1;
+    	  int second=Integer.MIN_VALUE;
     	  for(int i=0;i<arr.length;i++)
     		  if(arr[i]!=largest&&arr[i]>second)
     			  second=arr[i];
@@ -21,3 +21,4 @@ public class FindSecondLargest
 		fsl.Find_Second_Largest();
 	}
 }
+
