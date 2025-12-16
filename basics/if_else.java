@@ -4,19 +4,20 @@ public class if_else {
 public static void main(String[] args) 
 {
 		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter a number:");
 		int x=sc.nextInt();
 		if(x==0)
 		{
-			System.out.println("Zero");
+			System.out.println(x + " is Zero");
 			
 		}
 		else if(x>0)
 		{
-			System.out.println("Positive");
+			System.out.println(x + " is Positive");
 		}
 		else
 		{
-			System.out.println("Negative");
+			System.out.println(x + " is Negative");
 		}
 		sc.close();
 		
